@@ -1,0 +1,7 @@
+{
+  "name": "unibee",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
