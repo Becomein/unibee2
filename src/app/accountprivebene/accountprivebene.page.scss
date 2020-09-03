@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+.back{
+    z-index: 1;
+      margin-top:2rem;
+      width: 1,3rem;
+      margin-left: -.3rem;
+      position: fixed;
+  
+      }
+  
+  
+  .settings{
+      position:absolute;
+      margin-top: 5.9rem;
+      margin-right: -.6rem;
+      z-index: 1;
+  
+  }
+  
+  
+  header{
+    background: url('/assets/account-bg.svg') no-repeat  center top;
+  }
+  
+  body {
+  
+     background: url('/assets/account-bg.svg') no-repeat  center top;
+      -webkit-background-size: 100%;
+     -moz-background-size:100% ;
+      background-size: 100%;
+      -o-background-size: 100%;
+      background-color: white;
+      overflow-y: auto;
+    }
+  
+    .cardbg {
+      margin-top: 5rem;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+    //  margin-left: 10px;
+   //   margin-right: 10px;
+      box-shadow: 5px 5px 15px rgb(185, 184, 165);
+      padding-bottom: 1rem;
+      margin-bottom:  1rem;
+    
+    }
+  
+  .cardprofil{
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+      background-color: rgb(78, 78, 78);
+      border-radius: 15px;
+      margin-left: 1.3rem;
+      margin-right: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
+  
+    }
+  
+    .avatar {
+      border-radius: 20px;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .card{
+      border-color: transparent;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  
+  
+  
+  
+    .nameasso{
+  
+      padding-top: 2rem;
+    }
+  
+  
+    h6{
+  font-weight: bold;
+        font-size: 12px;
+        color:(#f9d655);
+    }
+    
+  
+    h4{
+        margin-bottom: 0px;
+    }
+  
+    .contact1{
+      border-radius: 7px 7px 0px 0px; /* top left, top right, bottom right, bottom left */
+   //   border-radius: 7px;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      background-color: #fff0b8;
+      width: auto;
+    }
+    .contact2{
+      border-radius: 0px 0px 7px 7px; /* top left, top right, bottom right, bottom left */
+   //   border-radius: 7px;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      background-color: #fff0b8;
+      width: auto;
+      border-top: .3mm ridge #fff0b869;
+    }
+  
+  
+  
+    h5{
+  
+      margin-top: -1rem;
+      margin-bottom: .7rem;
+    }
+  
+    .smalltitle{
+        margin-top: .3rem;
+      font-size: .7rem;
+    }
+  
+  
+    .info{
+      border-radius: 7px;
+      //   border-radius: 7px;
+         background-color: #F9D655;
+         width: auto;
+         padding-bottom: 1rem;
+         padding-top: 1rem;
+         margin-bottom: 4rem;
+  
+  
+    }
+  
+    .h7{
+      line-height: 130%;
+      text-align: justify;
+      margin-top: .3rem;
+  font-size: 1rem;
+    }
+  
+  
+  
+  .btn-custom{
+    box-shadow: 5px 5px 15px rgb(151, 150, 135);
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(3px);
+    color:rgb(27, 27, 27);
+    font-size: 15px;
+    font-weight: 600;
+   // min-height: 3rem;
+   // border-color: rgb(27, 27, 27);
+    margin-left: 1.6em;
+   // margin-right: 2.3rem;
+    position: relative;
+  //  margin-top: 5vw !important;
+  width: 13rem;
+  margin-bottom: 1rem;
+  
+    
+  }
+  .btn-custom:focus,
+  .btn-custom:hover,
+  .btn-custom:active,
+  //.btn-custom:active:focus{
+    //background: #ecce5f;
+    //border-color: #696969;
+    //color:#fff;
+  //}
+  .btn-custom:focus{
+    box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+  }
+  
+  
+  .footer{
+    position: sticky bottom;
+    width:100%;
+    margin-top:50px;
+    height:50px;
+    margin-bottom:2rem;
+    font-size: 12px;
+  }
+  
+  .font{
+    font-size: large;
+    text-transform: uppercase;
+  }
+  

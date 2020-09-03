@@ -26,15 +26,17 @@
 
 
 header{
-  background-image: url('/assets/account-bg.svg') no-repeat  center top;
+  background: url('/assets/account-bg.svg') no-repeat  center top;
 }
 
 body {
+
+   background: url('/assets/account-bg.svg') no-repeat  center top;
     -webkit-background-size: 100%;
    -moz-background-size:100% ;
     background-size: 100%;
     -o-background-size: 100%;
-
+    background-color: white;
     overflow-y: auto;
   }
 
@@ -93,7 +95,6 @@ font-weight: bold;
 
   h4{
       margin-bottom: 0px;
-      color: darken($color: #000000, $amount: 0);
   }
 
   .contact1{
@@ -117,13 +118,12 @@ font-weight: bold;
 
 
   h5{
-    color: darken($color: #000000, $amount: 0);
+
     margin-top: -1rem;
     margin-bottom: .7rem;
   }
 
   .smalltitle{
-    color: darken($color: #000000, $amount: 0);
       margin-top: .3rem;
     font-size: .7rem;
   }
@@ -146,13 +146,12 @@ font-weight: bold;
     text-align: justify;
     margin-top: .3rem;
 font-size: 1rem;
-color: darken($color: #000000, $amount: 0);
   }
 
 
 
 .btn-custom{
-  box-shadow: 5px 5px 15px rgb(185, 184, 165);
+  box-shadow: 5px 5px 15px rgb(151, 150, 135);
   border-radius: 17px;
   background-color: rgb(255, 255, 255);
   backdrop-filter: blur(3px);
@@ -160,7 +159,7 @@ color: darken($color: #000000, $amount: 0);
   font-size: 15px;
   font-weight: 600;
  // min-height: 3rem;
-  border-color: rgb(27, 27, 27);
+ // border-color: rgb(27, 27, 27);
   margin-left: 1.6em;
  // margin-right: 2.3rem;
   position: relative;
@@ -186,9 +185,9 @@ margin-bottom: 1rem;
 .footer{
   position: sticky bottom;
   width:100%;
- // margin-top:50px;
+  margin-top:50px;
   height:50px;
- // margin-bottom:2rem;
+  margin-bottom:2rem;
   font-size: 12px;
 }
 
