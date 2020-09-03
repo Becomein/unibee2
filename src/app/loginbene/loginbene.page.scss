@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+
+
+h1{
+  font-family: 'Poppins', sans-serif;
+//  font-size: min(max(8vw), 40px);
+  color:#666;
+  margin-bottom: 0vw;
+  margin-top: 5vw;
+}
+body{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+ // font-size: min(max(4vw), 12px);
+//  background: rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
+  overflow-y: hidden;
+  background-image: url("../../assets/login.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.login-container{
+  // height: 10vh;
+  width: 100%;
+}
+.login-form{
+  margin: auto;
+  width: 380px;
+  padding: 15px;
+  max-width: 100%;
+}
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+  background-color: #F6F5F0;
+  -moz-box-shadow:    inset 0 0 15px #68686859;
+  -webkit-box-shadow: inset 0 0 15px #68686859;
+  box-shadow:         inset 0 0 15px #68686859;
+}
+.login-form a{
+  text-decoration: none;
+  color:#666;
+}
+.login-form a:hover{
+  color:#f9d655;
+}
+.forgot-link{
+  font-size: 12px;
+  margin-left: -10px;
+}
+
+.form-control:focus{
+  border-color:#6d6d6d;
+}
+.btn-custom{
+  background: #f9d655;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #ecce5f;
+  border-color: #696969;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+
+.ellipse {
+  width: 200px;
+  height: 200px;
+  background: #f9d655;
+  border-radius: 100px / 100px; 
+}
+
+.unibee-name {
+  font-family: 'Amaranth', sans-serif;
+//  font-size: min(max(5vw), 40px);
+  position: relative;
+  margin-top: 1px;
+  margin-bottom: 20%;
+
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 8vh;
+ // margin-bottom: 1vw;
+  height: 10vh;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.795);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+ // margin-bottom: 10vh;
+  backdrop-filter: blur(5px);
+  box-shadow: 5px 5px 15px rgba(124, 124, 124, 0.356);
+
+}
+
+.footer{
+  position: sticky; 
+  bottom:0px;
+  width:100%;
+  font-size: 15px;
+  
+  }
+
+.back{
+position: absolute;
+top:10vw;
+width: 1,3rem;
+padding-left: 1%;
+}
+
+
+
+  @media screen and (min-width: 200px) and (max-width: 320px) {
+    .unibee-name {
+      font-family: 'Amaranth', sans-serif;
+     // font-size: min(max(5vw), 40px);
+      position: relative;
+      margin-top: 1px;
+      margin-bottom: 2%;
+    }
+
+
+
+    .footer{
+      position: fixed;
+      width:100%;
+      margin-top:50px;
+      height:50px;
+      margin-bottom:10px;
+      font-size: 12px;
+      }
+
+
+      .back{
+        position: absolute;
+        top:10vw;
+        width: 1rem;
+        padding-left: 1%;
+        }
+
+        .logo{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          margin-top: 2em;
+          margin-bottom: 1vw;
+          height: 20vw;
+        }
+  }
+
+

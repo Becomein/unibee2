@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+ion-content {
+    --background: none;
+    background-image: url("../../assets/choix-bg-2.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #F9D655;
+    background-size: 100%;
+}
+
+
+
+.h1{
+        position: auto;
+        text-align: left;
+        font-family: 'Nunito', sans-serif;
+        color:rgb(255, 255, 255);
+     //   font-size: 32px;
+    //    margin-top: 30vw;
+     //   margin-bottom: 30vw;
+        
+         }
+
+
+.h4{
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+
+         }
+
+.container{
+
+    text-align: center;
+}
+
+
+.choixbouton{
+
+    height: 14vh;
+}
+
+.h5{
+    position: auto;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(255, 255, 255);
+ //   font-size: 3vw;
+    margin-top: min2vw;
+}
+
+.h6{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.h6{
+    font-family: 'Nunito', sans-serif;
+}
+
+.mb-5{
+    
+    margin-bottom: 30% !important;
+    
+}
+
+.mt-5{
+    
+    margin-top: 30% !important;
+    
+}
+
+
+
+@media screen and (min-height: 200px) and (max-height: 590px) {
+    .mt-5{
+    
+        margin-top: 20% !important;
+        margin-bottom: 10% !important;
+        
+    }
+    }

@@ -1,0 +1,30 @@
+ion-content {
+    --background: none;
+    background-image: url("/assets/splashscreen.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F9D655;
+    background-size: 60%;
+    padding-bottom: 50%;
+    padding-top:50% ;
+}
+
+
+
+.footer{
+    padding-bottom: 2vh;
+    text-align: center;
+    background-color: #F9D655;
+    font-size: inherit;
+}
+
+.col-10{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.h6{
+
+    font-size: 3.5vw;
+}
