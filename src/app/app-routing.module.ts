@@ -54,6 +54,10 @@ const routes: Routes = [
     path: 'accountpublicbene',
     loadChildren: () => import('./accountpublicbene/accountpublicbene.module').then( m => m.AccountpublicbenePageModule)
   },
+  {
+    path: 'accountpriveasso',
+    loadChildren: () => import('./accountpriveasso/accountpriveasso.module').then( m => m.AccountpriveassoPageModule)
+  },
 
   
 ];
