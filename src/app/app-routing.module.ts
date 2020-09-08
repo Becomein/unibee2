@@ -58,6 +58,10 @@ const routes: Routes = [
     path: 'accountpriveasso',
     loadChildren: () => import('./accountpriveasso/accountpriveasso.module').then( m => m.AccountpriveassoPageModule)
   },
+  {
+    path: 'accountassomodif',
+    loadChildren: () => import('./accountassomodif/accountassomodif.module').then( m => m.AccountassomodifPageModule)
+  },
 
   
 ];

@@ -24,26 +24,19 @@
   
   }
   
-
-
-
-  //backgroundimage top fit 
-  .home-background{ 
-    --background: none;
-    background-image: url('/assets/account-bg.svg');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-
-  }
   
   ion-content {
-      background-color: white;
-      overflow-y: auto;
-    }
-  
+    --background: none;
+    background-image: url("/assets/account-bg.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+ }
+
+
     .cardbg {
-      margin-top: 5rem;
+      margin-top: 3rem;
       background-color: rgb(255, 255, 255);
       border-radius: 20px;
     //  margin-left: 10px;
@@ -96,8 +89,8 @@
     
   
     h4{
+        color: black;
         margin-bottom: 0px;
-        color:#212529;
     }
   
     .contact1{
@@ -121,16 +114,14 @@
   
   
     h5{
-  
+        color: black;
       margin-top: -1rem;
       margin-bottom: .7rem;
-      color:black;
     }
   
     .smalltitle{
         margin-top: .3rem;
       font-size: .7rem;
-      color:#212529;
     }
   
   
@@ -150,7 +141,7 @@
       line-height: 130%;
       text-align: justify;
       margin-top: .3rem;
-    font-size: 1rem;
+  font-size: 1rem;
     }
   
   
@@ -190,7 +181,9 @@
   .footer{
     position: sticky bottom;
     width:100%;
+    margin-top:50px;
     height:50px;
+    margin-bottom:2rem;
     font-size: 12px;
   }
   
@@ -198,13 +191,68 @@
     font-size: large;
     text-transform: uppercase;
   }
-
-
- ion-footer{
-background: transparent url();
-
-  }
   
-  #footer-area {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
+
+  p{
+      color: black;
+  }
+
+
+  .input
+  {
+    z-index: 1;
+    background-color: transparent ;
+      margin-top: -1rem;
+      margin-left: -10px;
+      width: 9rem;
+    font-size: 25px;
+      border-color: transparent;
+      outline: transparent;
+      height: 35px;
+  }
+
+
+
+
+  .inputsmall
+  {
+    color: black !important;
+    z-index: 1;
+    background-color: transparent ;
+      margin-top: -1rem;
+      margin-left: -10px;
+      width: 100%;
+    font-size: 20px;
+      border-color: transparent;
+      outline: transparent;
+      height: 35px;
+  }
+
+
+
+
+  .inputinfo
+  {
+
+    line-height: 130%;
+    text-align: justify;
+    margin-top: .3rem;
+font-size: 1rem;
+    color: black !important;
+    z-index: 1;
+    background-color: transparent ;
+      margin-top: -1rem;
+      margin-left: -10px;
+      width: 100%;
+      border-color: transparent;
+      outline: transparent;
+      height: auto;
+      line-break: auto;
+  }
+
+
+
+  .form-group{
+ margin-bottom: 0px;
+ height: 35px;
+  }
