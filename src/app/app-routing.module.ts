@@ -70,6 +70,10 @@ const routes: Routes = [
     path: 'createnewevent',
     loadChildren: () => import('./createnewevent/createnewevent.module').then( m => m.CreateneweventPageModule)
   },
+  {
+    path: 'eventcomplet',
+    loadChildren: () => import('./eventcomplet/eventcomplet.module').then( m => m.EventcompletPageModule)
+  },
 
   
 ];

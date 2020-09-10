@@ -272,8 +272,15 @@ font-size: 1rem;
     z-index: 1;
     object-fit: cover;
     border-radius: 20px;
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+    right: 0;
 
 
+  }
+
+
+  .holder{
+    font-display: h6;
   }
