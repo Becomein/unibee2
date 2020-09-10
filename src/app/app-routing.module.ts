@@ -66,6 +66,10 @@ const routes: Routes = [
     path: 'accountbenemodif',
     loadChildren: () => import('./accountbenemodif/accountbenemodif.module').then( m => m.AccountbenemodifPageModule)
   },
+  {
+    path: 'createnewevent',
+    loadChildren: () => import('./createnewevent/createnewevent.module').then( m => m.CreateneweventPageModule)
+  },
 
   
 ];

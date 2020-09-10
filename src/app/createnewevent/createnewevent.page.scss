@@ -1,0 +1,111 @@
+.white{
+    --background: white;
+}
+
+
+
+
+.cardbg {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: -5px -5px 15px rgb(185, 184, 165);
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+  }
+
+
+
+  .cardbg2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(185, 184, 165);
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+  }
+
+
+
+
+
+  .container-fluid{
+margin-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+
+.col-12{
+    margin:0px;
+    padding:0px;
+}
+
+  }
+
+
+  p{
+      color: black;
+  }
+
+
+
+  .map{
+      align-content: center;
+      background-color: red;
+      height: 25% !important;
+      border-radius: 7px;
+      margin-bottom: 1rem;
+  }
+
+
+  .info{
+      background-color: yellow;
+    height: fit-content;    
+    margin-top: 20px;
+    padding-top: 1vh;
+  }
+
+
+  .smalltitle{
+    margin-top: .3rem;
+    font-size: .8rem;
+}
+
+
+.hbt{
+    height: fit-content;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: -20px;
+    padding: 0px;
+}
+
+
+
+h3{
+    color:black;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+
+h6{
+    margin-top: 5px;
+    color: black;
+    font-size: .6rem;
+}
+
+
+.ico{
+;
+    margin-top: 10px;
+    height: 50px !important;
+    width: 50px !important;
+}
