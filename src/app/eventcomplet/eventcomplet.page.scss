@@ -3,14 +3,25 @@
 }
 
 
+.back{
+    z-index: 1;
+      margin-top:2rem;
+      width: 1,3rem;
+      margin-left: -.3rem;
+      position: fixed;
+        
+      }
+  
+
 
 
 
 .event{
     z-index: 0;
-    position: relative;
+  //  position: absolute;
      object-fit: cover;
-    height: 20rem;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -31,11 +42,10 @@
 
 .cardbg {
     z-index: 2;
-    position: relative;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
-    box-shadow: -5px -5px 15px rgb(185, 184, 165);
-    height: 65%;
+    box-shadow: -10px -10px 25px rgba(172, 172, 172, 0.384);
+    height: 72%;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -83,11 +93,12 @@ margin-bottom: 0px;
 
 
   .map{
+      position: relative;
       align-content: center;
       background-color: red;
       height: 25% !important;
       border-radius: 7px;
-      margin-bottom: 1rem;
+      margin-bottom: 65px;
   }
 
 
@@ -159,25 +170,102 @@ font-size: 1rem;
 
 
 
-.bc{
-    border-inline: black;
-    color: white;
-    position: relative;
-background-color: #57575777;
-    margin-right: 0px;
-    width: 100%;
 
-}
 
 .bv{
     color: white;
-    position: relative;
-    margin-left: 0px;
+    position: sticky center;
+    margin-left: 60%;
+    margin-right: 100%;
 background-color: #f9d655;
     width: 100%;
+    border-radius: 15px;
 }
 
 
 .btn{
     margin-bottom: 15px;
 }
+
+
+.adress{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    padding-left: 5px !important;
+
+}
+
+
+ion-footer{
+    background-image: none;
+     background-color: transparent;
+}
+
+
+scroll-content {
+    overflow: visible !important;
+
+  }
+
+  ion-content{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+
+
+
+.logo{
+    position: absolute;
+    margin-top: -11.7rem ;
+    margin-left: -8px !important;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.name{
+    z-index: 2;
+    background: none;
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-bottom: 50%;
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
+
+  h2{
+    font-weight: bold;
+          font-size: 12px;
+          color:(#f9d655);
+      }
+
+      h4{
+        margin-bottom: 0px;
+        color:#212529;
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 320px){
+        .back{
+            z-index: 1;
+              margin-top:1rem;
+              width: 1rem;
+              margin-left: -.3rem;
+              position: fixed;
+                
+              }
+          
+    }

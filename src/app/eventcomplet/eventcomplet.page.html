@@ -1,13 +1,34 @@
-<ion-content class="white">
+<ion-content fullscreen class="white">
 
 
 
 
 
   <div class="container-fluid" rows="12">
+    <div class="col-2"> 
+      <img class="back" src="assets/back-white.svg" alt="back" />
+
+    </div>
+
   <div class="col-12">
-    <img class="addpic" src="/assets/addevent.svg" alt="addpic"> 
-    <img class="event" src="assets/baseevent.svg" />
+    <img class="event" src="assets/baseevent2.svg" alt="addpic" />
+
+
+
+
+  <div class="col-5 asso" >
+
+    <img class="logo" src="/assets/choixasso-none.png" alt="addpic"> 
+
+  </div>
+
+
+
+  
+<div class="col-8 name">
+  <h4>Unibee</h4>   
+  <h2>Association evenementielle</h2>    
+</div>
   
   </div>
   </div>
@@ -48,7 +69,9 @@
   
           <div class="col-11 info">
             <p class="smalltitle">Details de l'évènement</p>
-            <ion-textarea placeholder="Ajouter une description" type="text" class="inputinfo form-control" rows="8"></ion-textarea>
+            <ion-textarea>
+              <p>Description de l'évent</p>
+            </ion-textarea>
           </div>
   
           
@@ -60,29 +83,26 @@
   
   
         <div class="col-11 map">
-            map
-  
+            <div>  
+              <h6 class="col-12 adress"> Adresse de l'evenement </h6>
+            </div>
         </div>
   
-        <div class="container-fluid">
-          <div class="col-12 row">
-            <div class="col-6 d-flex justify-content-center>">
-              
-              <button type="submit" class="btn font bc">Supprimer</button>
-            </div>
-  
-            <div class="col-6 d-flex justify-content-center>">
-  
-                <button type="submit" class="btn font bv">Publier</button>
-  
-            </div>
-  
-          </div>
-        </div>
+
       </div>
     </div>
   
   
   
   </ion-content>
+
+  <ion-footer text-center no-border transparent>
+        <div class="container-fluid">
+            <div class="col-6 d-flex>">
+              
+              <button type="submit" class="btn font bv">Participer</button>
+  
+          </div>
+        </div>
+  </ion-footer>
   

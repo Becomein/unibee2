@@ -10,7 +10,8 @@
     z-index: 0;
     position: relative;
      object-fit: cover;
-    height: 20rem;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -24,7 +25,7 @@
     z-index: 1;
     object-fit: cover;
     height: 20rem;
-    margin-top: -1rem;
+    width: 100%;
 
 
   }
@@ -35,7 +36,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
     box-shadow: -5px -5px 15px rgb(185, 184, 165);
-    height: 65%;
+    height: 68%;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -166,7 +167,7 @@ font-size: 1rem;
 background-color: #57575777;
     margin-right: 0px;
     width: 100%;
-
+    border-radius: 15px;
 }
 
 .bv{
@@ -175,6 +176,7 @@ background-color: #57575777;
     margin-left: 0px;
 background-color: #f9d655;
     width: 100%;
+    border-radius: 15px;
 }
 
 
@@ -190,4 +192,62 @@ background-color: #f9d655;
     color: black;
     font-size: .6rem;
     border-color: transparent;
+    text-align: center;
+    margin-left: 5px;
 }
+
+
+
+.adress{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    padding-left: 7px !important;
+}
+
+
+
+.asso{
+    padding-left: 8px;
+    z-index: 2;
+    background: none;
+    position: absolute;
+    top: 0;
+    margin-top: 22%;
+    margin-bottom: 50%;
+
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.name{
+    z-index: 2;
+    background: none;
+    position: absolute;
+    top: 0;
+    margin-top: 28%;
+    margin-bottom: 50%;
+    margin-left: 120px;
+
+}
+
+
+
+h2{
+    font-weight: bold;
+          font-size: 12px;
+          color:(#f9d655);
+      }
+
+      h4{
+        margin-bottom: 0px;
+        color:#212529;
+        font-size: 25px;
+    }
