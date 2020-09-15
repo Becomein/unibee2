@@ -49,7 +49,7 @@
     <name>Unibee</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content original-src="index.html" src="http://localhost:8100" />
+    <content original-src="index.html" src="http://172.16.83.240:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -61,6 +61,8 @@
     <allow-navigation href="http://localhost:8102" sessionid="9ccdce59" />
     <allow-navigation href="http://localhost:8101" sessionid="3c138543" />
     <allow-navigation href="http://localhost:8103" sessionid="a3297fad" />
+    <allow-navigation href="http://172.16.83.240:8101" sessionid="51e761a4" />
+    <allow-navigation href="http://172.16.83.240:8100" sessionid="431ffb00" />
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
         <string>We use your location for full functionality of certain app features.</string>
     </edit-config>
@@ -143,4 +145,5 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="Orientation" value="portrait" />
+    <preference name="KeyboardResize" value="false" />
 </widget>

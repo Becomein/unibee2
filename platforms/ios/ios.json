@@ -18,13 +18,13 @@
           "NSCameraUsageDescription": [
             {
               "xml": "<string>Need Camera acess to take pictures</string>",
-              "count": 12
+              "count": 24
             }
           ],
           "NSPhotoLibraryUsageDescription": [
             {
               "xml": "<string>Need photo library acess to get picture from theres</string>",
-              "count": 12
+              "count": 24
             }
           ]
         }

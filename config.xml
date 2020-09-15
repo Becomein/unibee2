@@ -20,6 +20,7 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="Orientation" value="portrait" />
+    <preference name="KeyboardResize" value="false" />
     <platform name="android">
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
             <application android:networkSecurityConfig="@xml/network_security_config" />
@@ -113,4 +114,5 @@
     <allow-navigation href="http://localhost:8102" sessionid="9ccdce59" />
     <allow-navigation href="http://localhost:8101" sessionid="3c138543" />
     <allow-navigation href="http://localhost:8103" sessionid="a3297fad" />
+    <allow-navigation href="http://172.16.83.240:8101" sessionid="51e761a4" />
 </widget>
