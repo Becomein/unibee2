@@ -435,6 +435,63 @@ const openURL = async (url, ev, direction, animation) => {
 
 
 
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/modal/modal.page.html":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/modal/modal.page.html ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-content class=\"white\">\n\n\n  <ion-item>\n    <h6>Quand se déroule l'évènement ?</h6>\n    <ion-input  class=\"date\" type=\"date\" [(ngModel)]=\"dataEvent.date\"></ion-input>   \n  </ion-item>\n  \n\n\n  <ion-item>\n    <h6>À partir de qu'elle heure ?</h6>\n    <ion-datetime displayFormat=\"HH:mm\" [(ngModel)]=\"dataEvent.heureD\"></ion-datetime>\n  </ion-item>\n  \n\n  <ion-item>\n    <h6>Jusqu'à qu'elle heure ?</h6>\n    <ion-datetime displayFormat=\"HH:mm\" [(ngModel)]=\"dataEvent.heureD\"></ion-datetime>\n  </ion-item>\n\n  <div class=\" container-fluid col-12 text-center\">\n\n    <button class=\"btn center-block\">\n      <h5>Valider</h5>\n    </button>\n\n  </div>\n\n\n</ion-content>");
+
+/***/ }),
+
+/***/ "./src/app/modal/modal.page.scss":
+/*!***************************************!*\
+  !*** ./src/app/modal/modal.page.scss ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("h6 {\n  margin-top: 15px;\n  margin-bottom: 15px;\n}\n\n.date {\n  width: 10px;\n}\n\n.btn {\n  margin-top: 30px;\n  color: #363636;\n  display: block;\n  width: 150px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #ffec44;\n}\n\nh5 {\n  font-weight: bold;\n  font-size: medium;\n  margin: 5;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9iZWNvbWVpbi9EZXNrdG9wL2FwcGxpY2F0aW9uLXVuaWJlZS91bmliZWUyLmdpdC9zcmMvYXBwL21vZGFsL21vZGFsLnBhZ2Uuc2NzcyIsInNyYy9hcHAvbW9kYWwvbW9kYWwucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUEsZ0JBQUE7RUFDSSxtQkFBQTtBQ0FKOztBRElBO0VBQ0ksV0FBQTtBQ0RKOztBRElBO0VBQ0ksZ0JBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtFQUNBLFlBQUE7RUFFRixpQkFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7QUNGRjs7QURRQTtFQUNJLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxTQUFBO0FDTEoiLCJmaWxlIjoic3JjL2FwcC9tb2RhbC9tb2RhbC5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoNntcblxubWFyZ2luLXRvcDogMTVweDtcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuLy8gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5kYXRle1xuICAgIHdpZHRoOiAxMHB4O1xufVxuXG4uYnRue1xuICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gICAgY29sb3I6IHJnYig1NCwgNTQsIDU0KTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB3aWR0aDogMTUwcHg7XG4gIC8vICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNTUsIDIzNiwgNjgpO1xuXG59XG5cblxuXG5oNXtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBmb250LXNpemU6IG1lZGl1bTtcbiAgICBtYXJnaW46IDU7XG59IiwiaDYge1xuICBtYXJnaW4tdG9wOiAxNXB4O1xuICBtYXJnaW4tYm90dG9tOiAxNXB4O1xufVxuXG4uZGF0ZSB7XG4gIHdpZHRoOiAxMHB4O1xufVxuXG4uYnRuIHtcbiAgbWFyZ2luLXRvcDogMzBweDtcbiAgY29sb3I6ICMzNjM2MzY7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMTUwcHg7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmVjNDQ7XG59XG5cbmg1IHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogbWVkaXVtO1xuICBtYXJnaW46IDU7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/modal/modal.page.ts":
+/*!*************************************!*\
+  !*** ./src/app/modal/modal.page.ts ***!
+  \*************************************/
+/*! exports provided: ModalPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalPage", function() { return ModalPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+let ModalPage = class ModalPage {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ModalPage = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-modal',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./modal.page.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/modal/modal.page.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./modal.page.scss */ "./src/app/modal/modal.page.scss")).default]
+    })
+], ModalPage);
+
+
+
 /***/ })
 
 }]);

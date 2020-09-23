@@ -234,6 +234,204 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return m.AcceuilPageModule;
         });
       }
+    }, {
+      path: 'choix',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | choix-choix-module */
+        "choix-choix-module").then(__webpack_require__.bind(null,
+        /*! ./choix/choix.module */
+        "./src/app/choix/choix.module.ts")).then(function (m) {
+          return m.ChoixPageModule;
+        });
+      }
+    }, {
+      path: 'registerbene',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | registerbene-registerbene-module */
+        "registerbene-registerbene-module").then(__webpack_require__.bind(null,
+        /*! ./registerbene/registerbene.module */
+        "./src/app/registerbene/registerbene.module.ts")).then(function (m) {
+          return m.RegisterbenePageModule;
+        });
+      }
+    }, {
+      path: 'resterasso',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | resterasso-resterasso-module */
+        "resterasso-resterasso-module").then(__webpack_require__.bind(null,
+        /*! ./resterasso/resterasso.module */
+        "./src/app/resterasso/resterasso.module.ts")).then(function (m) {
+          return m.ResterassoPageModule;
+        });
+      }
+    }, {
+      path: 'splashscreen',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | splashscreen-splashscreen-module */
+        "splashscreen-splashscreen-module").then(__webpack_require__.bind(null,
+        /*! ./splashscreen/splashscreen.module */
+        "./src/app/splashscreen/splashscreen.module.ts")).then(function (m) {
+          return m.SplashscreenPageModule;
+        });
+      }
+    }, {
+      path: 'loginasso',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | loginasso-loginasso-module */
+        "loginasso-loginasso-module").then(__webpack_require__.bind(null,
+        /*! ./loginasso/loginasso.module */
+        "./src/app/loginasso/loginasso.module.ts")).then(function (m) {
+          return m.LoginassoPageModule;
+        });
+      }
+    }, {
+      path: 'loginbene2',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | loginbene2-loginbene2-module */
+        "loginbene2-loginbene2-module").then(__webpack_require__.bind(null,
+        /*! ./loginbene2/loginbene2.module */
+        "./src/app/loginbene2/loginbene2.module.ts")).then(function (m) {
+          return m.Loginbene2PageModule;
+        });
+      }
+    }, {
+      path: 'accountpublicasso',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountpublicasso-accountpublicasso-module */
+        "accountpublicasso-accountpublicasso-module").then(__webpack_require__.bind(null,
+        /*! ./accountpublicasso/accountpublicasso.module */
+        "./src/app/accountpublicasso/accountpublicasso.module.ts")).then(function (m) {
+          return m.AccountpublicassoPageModule;
+        });
+      }
+    }, {
+      path: 'accountprivebene',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountprivebene-accountprivebene-module */
+        "accountprivebene-accountprivebene-module").then(__webpack_require__.bind(null,
+        /*! ./accountprivebene/accountprivebene.module */
+        "./src/app/accountprivebene/accountprivebene.module.ts")).then(function (m) {
+          return m.AccountprivebenePageModule;
+        });
+      }
+    }, {
+      path: 'accountpublicbene',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountpublicbene-accountpublicbene-module */
+        "accountpublicbene-accountpublicbene-module").then(__webpack_require__.bind(null,
+        /*! ./accountpublicbene/accountpublicbene.module */
+        "./src/app/accountpublicbene/accountpublicbene.module.ts")).then(function (m) {
+          return m.AccountpublicbenePageModule;
+        });
+      }
+    }, {
+      path: 'accountpriveasso',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountpriveasso-accountpriveasso-module */
+        "accountpriveasso-accountpriveasso-module").then(__webpack_require__.bind(null,
+        /*! ./accountpriveasso/accountpriveasso.module */
+        "./src/app/accountpriveasso/accountpriveasso.module.ts")).then(function (m) {
+          return m.AccountpriveassoPageModule;
+        });
+      }
+    }, {
+      path: 'accountassomodif',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountassomodif-accountassomodif-module */
+        "accountassomodif-accountassomodif-module").then(__webpack_require__.bind(null,
+        /*! ./accountassomodif/accountassomodif.module */
+        "./src/app/accountassomodif/accountassomodif.module.ts")).then(function (m) {
+          return m.AccountassomodifPageModule;
+        });
+      }
+    }, {
+      path: 'accountbenemodif',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | accountbenemodif-accountbenemodif-module */
+        "accountbenemodif-accountbenemodif-module").then(__webpack_require__.bind(null,
+        /*! ./accountbenemodif/accountbenemodif.module */
+        "./src/app/accountbenemodif/accountbenemodif.module.ts")).then(function (m) {
+          return m.AccountbenemodifPageModule;
+        });
+      }
+    }, {
+      path: 'createnewevent',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | createnewevent-createnewevent-module */
+        "createnewevent-createnewevent-module").then(__webpack_require__.bind(null,
+        /*! ./createnewevent/createnewevent.module */
+        "./src/app/createnewevent/createnewevent.module.ts")).then(function (m) {
+          return m.CreateneweventPageModule;
+        });
+      }
+    }, {
+      path: 'eventcomplet',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | eventcomplet-eventcomplet-module */
+        "eventcomplet-eventcomplet-module").then(__webpack_require__.bind(null,
+        /*! ./eventcomplet/eventcomplet.module */
+        "./src/app/eventcomplet/eventcomplet.module.ts")).then(function (m) {
+          return m.EventcompletPageModule;
+        });
+      }
+    }, {
+      path: 'eventlist',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | eventlist-eventlist-module */
+        "eventlist-eventlist-module").then(__webpack_require__.bind(null,
+        /*! ./eventlist/eventlist.module */
+        "./src/app/eventlist/eventlist.module.ts")).then(function (m) {
+          return m.EventlistPageModule;
+        });
+      }
+    }, {
+      path: 'neweventgarat',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | neweventgarat-neweventgarat-module */
+        "neweventgarat-neweventgarat-module").then(__webpack_require__.bind(null,
+        /*! ./neweventgarat/neweventgarat.module */
+        "./src/app/neweventgarat/neweventgarat.module.ts")).then(function (m) {
+          return m.NeweventgaratPageModule;
+        });
+      }
+    }, {
+      path: 'modal',
+      loadChildren: function loadChildren() {
+        return Promise.all(
+        /*! import() | modal-modal-module */
+        [__webpack_require__.e("common"), __webpack_require__.e("modal-modal-module")]).then(__webpack_require__.bind(null,
+        /*! ./modal/modal.module */
+        "./src/app/modal/modal.module.ts")).then(function (m) {
+          return m.ModalPageModule;
+        });
+      }
+    }, {
+      path: 'tab3',
+      loadChildren: function loadChildren() {
+        return Promise.all(
+        /*! import() | asso-post-tab3-module */
+        [__webpack_require__.e("common"), __webpack_require__.e("asso-post-tab3-module")]).then(__webpack_require__.bind(null,
+        /*! ./asso-post/tab3.module */
+        "./src/app/asso-post/tab3.module.ts")).then(function (m) {
+          return m.Tab3PageModule;
+        });
+      }
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -625,7 +823,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/becomein/Desktop/application unibee/unibee/src/main.ts */
+    /*! /Users/becomein/Desktop/application-unibee/unibee2.git/src/main.ts */
     "./src/main.ts");
     /***/
   }

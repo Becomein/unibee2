@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="226px" viewBox="0 0 414 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle Copy 13</title>
+    <defs>
+        <linearGradient x1="9.52959857%" y1="17.633142%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C0A543" stop-opacity="0.146798514" offset="0%"></stop>
+            <stop stop-color="#FFDD62" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="-216" width="414" height="442" rx="47"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-13">
+            <use fill="#F9D655" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

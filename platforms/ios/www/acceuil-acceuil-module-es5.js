@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar>\n    <ion-title>acceuil</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n<ion-button href=\"loginbene\">login bene</ion-button>\n</ion-content>\n";
+    __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar>\n    <ion-title>acceuil</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n<ion-button href=\"loginbene2\">login bene</ion-button>\n<ion-button href=\"choix\">Bénévole/Asso</ion-button>\n<ion-button href=\"registerbene\">registerbene</ion-button>\n<ion-button href=\"resterasso\">registerasso</ion-button>\n<ion-button href=\"splashscreen\">splash</ion-button>\n<ion-button href=\"loginasso\">loginasso</ion-button>\n<ion-button href=\"accountpublicasso\">asso public</ion-button>\n<ion-button href=\"accountprivebene\">bene prive</ion-button>\n<ion-button href=\"accountpublicebene\">bene prive</ion-button>\n<ion-button href=\"createnewevent\">createnewe</ion-button>\n<ion-button href=\"eventcomplet\">complet</ion-button>\n<ion-button href=\"eventlist\">complet</ion-button>\n\n</ion-content>\n";
     /***/
   },
 

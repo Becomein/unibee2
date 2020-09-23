@@ -1,52 +1,47 @@
 .white{
     --background: rgb(255, 255, 255);
-}
-
-
-
-.event{
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .event{
     z-index: 0;
     position: relative;
-    height: 34vh;
-   // width: 100%;
-    max-width: 200%;
-    max-height: 200%;
-}
-
-
-
-
-.addpic{
-    fill: black;
-    position:absolute;
-    opacity: 100%;
-    z-index: 1;
-    object-fit: fill;
- //   height: 100%;
- //   width: 100%;
+    height: 34%;
+    width: 100vw;
   }
-
-
-
-
-
-.cardbg {
+  
+  
+  .eventpic{
+    object-fit: cover;
+    position: top;
+    margin-bottom: -3rem;
+  }
+  
+  
+  
+  
+  
+  
+  .cardbg {
     z-index: 2;
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
-    box-shadow: -5px -5px 15px rgb(185, 184, 165);
-    height: 68%;
+    box-shadow: -10x -10px 15px rgb(185, 184, 165);
+    height: 68vh;
     width: 100%;
-    bottom: 0;
+   // bottom: 0;
     width: 100%;
     margin-top: -3rem;
+    
   
   }
-
-
-
+  
+  
+  
   .cardbg2 {
     position: fixed;
     background-color: rgb(255, 255, 255);
@@ -59,94 +54,95 @@
     width: 100%;
   
   }
-
-
-.col-12{
+  
+  
+  .col-12{
     padding: 0;
-}
-
-
+  }
+  
+  
   .container-fluid{
-margin-bottom: 0px;
+  margin-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
-
-.col-12{
+  
+  .col-12{
     margin: 0;
     padding: 0;
-}
-
   }
-
-
+  
+  }
+  
+  
   p{
       color: black;
   }
-
-
-
+  
+  
+  
   .map{
       align-content: center;
       background-color: red;
-      height: 25% !important;
+      height: 30% !important;
       border-radius: 7px;
-      margin-bottom: 1rem;
+      margin-bottom: 50px !important;
   }
-
-
+  
+  
   .info{
     height: fit-content;    
     margin-top: 20px;
     padding-top: 1vh;
+    margin-bottom: 0px;
   }
-
-
+  
+  
   .smalltitle{
     margin-top: .3rem;
     font-size: .8rem;
-}
-
-
-.hbt{
+  }
+  
+  
+  .hbt{
     height: fit-content;
     position: relative;
     margin-top: 15px;
     margin-bottom: -20px;
     padding: 0px;
-}
-
-
-
-h3{
+  }
+  
+  
+  
+  h3{
     color:black;
     margin-top: 45px;
     margin-bottom: 45px;
-}
-
-
-h6{
+  }
+  
+  
+  h6{
     margin-top: 5px;
     color: black;
     font-size: .6rem;
-}
-
-
-.ico{
-
+  }
+  
+  
+  .ico{
+  
     margin-top: 10px;
     height: 50px !important;
     width: 50px !important;
-}
-
-
-
-.inputinfo
-{
-
+  }
+  
+  
+  
+  .inputinfo
+  {
+  
   line-height: 130%;
   text-align: justify;
   margin-top: .3rem;
-font-size: 1rem;
+  font-size: 1rem;
   color: black !important;
   z-index: 1;
   background-color: transparent ;
@@ -157,38 +153,41 @@ font-size: 1rem;
     outline: transparent;
     height: auto;
     line-break: auto;
-}
-
-
-
-
-.bc{
+  }
+  
+  
+  
+  
+  .bc{
     border-inline: black;
     color: white;
     position: relative;
-background-color: #57575777;
+  background-color: #57575777;
     margin-right: 0px;
     width: 100%;
     border-radius: 15px;
-}
-
-.bv{
+  }
+  
+  .bv{
+    z-index: 4;
     color: white;
+    //margin-top: 43vh;
     position: relative;
-    margin-left: 0px;
-background-color: #f9d655;
-    width: 100%;
+  background-color: #f9d655;
+    width: 40%;
     border-radius: 15px;
-}
-
-
-.btn{
+  margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  
+  .btn{
     margin-bottom: 15px;
-}
-
-
-
-.holder{
+  }
+  
+  
+  
+  .holder{
   //  margin-top: 5px;
   margin-top:-5px;
     color: black;
@@ -196,75 +195,76 @@ background-color: #f9d655;
     border-color: transparent;
     text-align: center;
     margin-left: 5px;
-}
-
-
-
-.adress{
+  }
+  
+  
+  
+  .adress{
+    border-radius: 5px 5px 0px 0px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     background-color: #f5f5f5;
     padding-bottom: 5px !important;
     padding-top: 5px !important;
     padding-left: 7px !important;
-}
-
-
-
-.asso{
+  }
+  
+  
+  
+  .asso{
   //  padding-left: 8px;
     z-index: 2;
-    background: none;
-    position: absolute;
+   // background: rgba($color: #ffffff6e, $alpha: 0.3);
+    position: relative;
     top: 0;
     height: 100%;
     padding : 0;
     margin-left: 12px;
     
-   margin-top: 6vh;
-//    margin-bottom: 50%;
-
-
-}
-
-
-.posbot{
+   margin-top: -55px;
+   margin-bottom: 15px;
+  //    margin-bottom: 50%;
+  }
+  
+  
+  .posbot{
     bottom:0 !important;
-}
-
-.logo{
+  }
+  
+  .logo{
     width: 70px;
     height: 70px;
- //   margin-top: 70%;
+  //   margin-top: 70%;
      bottom: 0;
-}
-
-.name{
+  }
+  
+  .name{
     z-index: 2;
     background: none
-//    top: 0;
- //   margin-top: 48%;
+  //    top: 0;
+  //   margin-top: 48%;
   //  margin-bottom: 50%;
- //   margin-left: 90px;
-
-}
-
-
-
-h2{
-    margin-left: 12px;
+  //   margin-left: 90px;
+  
+  }
+  
+  
+  
+  h2{
+   // margin-left: 12px;
     font-weight: bold;
           font-size: 12px;
           color:(#f9d655);
+          text-shadow: 0px 0px 3px #ffffff65;
       }
-
+  
       h4{
         margin-bottom: 0px;
         color:#212529;
         font-size: 25px;
     }
-
+  
     .nevent{
         margin-left: 12px;
         color: black;
@@ -272,18 +272,55 @@ h2{
      //   padding-bottom: 0px;
     }
 
+    .nevent2{
+      background-color:transparent;
+      border: transparent;
+      font-size: 20px;
+      margin-left: -9px;
+      margin-bottom: -10px;
+  }
+  
     ion-textarea{
-        margin-bottom: 0;
+        margin-bottom: -60px;
     }
-
-
-
-
+  
+  
+  
+  
     .container{
         padding : 0;
     }
+  
+inner-scroll{
+  padding-bottom: 0px !important;
+}
 
-    .scroll-content
-    {
-      padding-bottom: 0 !important;
-    }
+
+input[type='text']::-webkit-input-placeholder {
+  color: white;
+  text-shadow: 0px 0px 3px #ffffff83;
+}
+input[type='text']:-moz-placeholder {
+  color:white;
+  text-shadow: 0px 0px 3px #ffffff85;
+}
+
+
+input:focus { 
+  color:white;
+  outline: none !important;
+  border-color: #719ece00;
+  text-shadow: 0px 0px 3px #ffffff8a;
+}
+
+:placeholder-shown{
+  color:white;
+  text-shadow: 0px 0px 3px #ffffff85;
+
+}
+
+::placeholder{
+  color:white !important;
+  text-shadow: 0px 0px 3px #ffffff85;
+
+}

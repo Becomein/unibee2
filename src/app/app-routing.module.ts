@@ -74,6 +74,22 @@ const routes: Routes = [
     path: 'eventcomplet',
     loadChildren: () => import('./eventcomplet/eventcomplet.module').then( m => m.EventcompletPageModule)
   },
+  {
+    path: 'eventlist',
+    loadChildren: () => import('./eventlist/eventlist.module').then( m => m.EventlistPageModule)
+  },
+  {
+    path: 'neweventgarat',
+    loadChildren: () => import('./neweventgarat/neweventgarat.module').then( m => m.NeweventgaratPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./asso-post/tab3.module').then( m => m.Tab3PageModule)
+  },
 
   
 ];

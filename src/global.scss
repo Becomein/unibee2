@@ -25,3 +25,28 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 @import "~leaflet/dist/leaflet.css";
+
+
+.ionbg{
+    background-color: #fafafa !important;
+    width: 500px;
+}
+
+.ion-modal {
+    position: absolute;
+    overflow: hidden;
+    max-width: 410px;
+    border-radius: 2px;
+    width: 90vw;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+    border: 0;
+    //box-shadow: 1000x 1000px 100px rgb(92, 92, 92);
+    box-shadow: 0 0 0 100rem rgba(39, 39, 39, 0.5);
+    background-color: #fafafa !important;
+    }

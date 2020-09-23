@@ -1,0 +1,47 @@
+h6{
+
+margin-top: 15px;
+    margin-bottom: 15px;
+//    font-weight: bold;
+}
+
+.date{
+    width: 10px;
+}
+
+.btn{
+
+    color: rgb(54, 54, 54);
+    display: block;
+    width: 100%;
+  //  position: relative;
+    height: 50px ;
+  background-color: rgb(255, 236, 68);
+
+}
+
+
+
+h5{
+    font-weight: bold;
+    font-size: big;
+    margin: 5;
+}
+
+
+.no-margin{
+    padding: 0px;
+
+}
+
+
+
+.cancel{
+    z-index: 4;
+    position:absolute;
+    transition: .5s ease;
+    top: 0;
+    right: 0;
+    width: 30px;
+}
+

@@ -1,0 +1,35 @@
+<ion-content class="white">
+
+
+
+
+
+  <ion-item>
+    <h6>Quand se déroule l'évènement ?</h6>
+    <ion-input  class="date" type="date" [(ngModel)]="dataEvent.date">
+    </ion-input>   
+  </ion-item>
+  
+
+
+  <ion-item>
+    <h6>À partir de qu'elle heure ?</h6>
+    <ion-datetime displayFormat="HH:mm" [(ngModeal)]="dataEvent.heureD"></ion-datetime>
+  </ion-item>
+  
+
+  <ion-item>
+    <h6>Jusqu'à qu'elle heure ?</h6>
+    <ion-datetime displayFormat="HH:mm" [(ngModel)]="dataEvent.heureD"></ion-datetime>
+  </ion-item>
+
+  <div class=" container-fluid col-12 text-center no-margin">
+
+    <button class="btn center-block">
+      <h5>Valider</h5>
+    </button>
+
+  </div>
+
+
+</ion-content>
