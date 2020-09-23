@@ -1,0 +1,119 @@
+
+<ion-content class="white">
+
+
+
+
+
+  <div class="container">
+    <div class="col-12 nopad">
+  
+      <img (click)="addPhoto()" class="addpic" src= '/assets/btnicon.svg'/>
+      <div class="event">
+        <img *ngIf="dataPicture.croppic" class="eventpic" [src]="dataPicture.croppic">
+        <img *ngIf="!dataPicture.croppic"  class="eventpic" src='/assets/imgbg.png'>
+        
+      </div>
+
+      <div class="col-12 asso row align-item-center">
+      <div class="col-3 asso row align-item-center" rows="12">
+
+        <img *ngIf="dataUser.logo"  class="logo" [src]="dataUser.logo">
+        <img *ngIf="!dataUser.logo"  class="logo" src="/assets/choixasso-none.png" >
+      </div>
+      <div class="col-9 asso row align-item-center" rows="12">
+        <div class="nevent">
+
+          <input type="text" class="nevent2" placeholder="Nom de l'évènement" [(ngModel)]="dataEvent.titre" [ngModelOptions]="{standalone: true}">
+          <h2>{{dataUser.nom}}</h2>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container-fluid mt-auto">
+    <div class=" row col-12 cardbg justify-content-center">
+
+
+
+      <div class="col-11 hbt cardbg2 row text-center">
+
+
+        <div style="width: 33.3333333%;
+        flex: 0 0 33.3333333%;max-width: 33.33333333%;">
+          <img (click)="chooseDate()" class="ico" src="assets/date.svg" alt="date de l'event" />
+          <h6 *ngIf="!dataCalendar.date" (click)="chooseDate()"> Date  <br /> Evènement      </h6>
+          <h6 *ngIf="dataCalendar.date" (click)="chooseDate()">{{ dataCalendar.date}}<br /> {{ dataCalendar.heureD}} - {{ dataCalendar.heureF}}
+          </h6>
+        </div>
+
+
+
+        <span class="border-left border-right" style="width: 33.3333333%;
+        flex: 0 0 33.3333333%;max-width: 33.33333333%;">
+          <span>
+
+            <img class="ico" src="assets/bene.svg" alt="nombre de benevole" />
+            <h6>
+            <ion-textarea [(ngModel)]="dataEvent.maxgens" [ngModelOptions]="{standalone: true}"
+              placeholder="Bénévoles demandés" style="padding-left: 0px;"   inputmode="numeric" class="holder" ></ion-textarea>
+            </h6>
+          </span>
+        </span>
+
+
+        
+        <div style="width: 33.3333333%;
+        flex: 0 0 33.3333333%;max-width: 33.33333333%;">
+         <img (click)="chooseLimit()" class="ico" src="assets/time.svg" alt="date de l'event" />
+         <h6 *ngIf="!dataLimit.limdate" (click)="chooseLimit()"> Limite <br /> Inscription      </h6>
+         <h6 *ngIf="dataLimit.limdate" (click)="chooseLimit()">{{ dataLimit.limdate}}<br /> {{ dataLimit.limhour}} 
+         </h6>
+  </div>
+  
+      </div>
+
+
+      <div class="col-11 info">
+        <p class="smalltitle">Description</p>
+        <ion-textarea  [(ngModel)]="dataEvent.description" [ngModelOptions]="{standalone: true}" placeholder="Renseigner une description de l'évènement" type="text" class="inputinfo form-control"
+          rows="8"></ion-textarea>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div id="mapA" (click)="choosePlace()" class="col-11 map">
+        <img class="map2" src="/assets/fondcarte.png">
+
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="col-12 row">
+
+
+          <div class="col-12 d-flex justify-content-center>">
+
+            <button (click)='Post()' type="submit" class="btn font bv">Publier</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+
+  </footer>
+
+
+</ion-content>

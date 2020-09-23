@@ -88,8 +88,13 @@ const routes: Routes = [
   },
   {
     path: 'tab3',
-    loadChildren: () => import('./asso-post/tab3.module').then( m => m.Tab3PageModule)
+    loadChildren: () => import('./tab33/tab33.module').then( m => m.Tab33PageModule)
   },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./tab3/tab3.module').then( m => m.Tab3PageModule)
+  },
+
 
   
 ];
